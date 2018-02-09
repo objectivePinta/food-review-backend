@@ -20,4 +20,10 @@ public class FoodReviewBackendApplicationTests {
 		assertTrue("a".equals("a"));
 	}
 
+
+	@Test
+	public void dummyTest3() {
+		assertTrue("a".equals("a"));
+	}
+
 }
