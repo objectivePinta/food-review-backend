@@ -5,12 +5,14 @@ import org.junit.runner.RunWith;
 import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.test.context.junit4.SpringRunner;
 
-//@RunWith(SpringRunner.class)
-//@SpringBootTest
-//public class FoodReviewBackendApplicationTests {
-//
-//	@Test
-//	public void contextLoads() {
-//	}
-//
-//}
+import static junit.framework.TestCase.assertTrue;
+
+
+public class FoodReviewBackendApplicationTests {
+
+	@Test
+	public void dummyTest() {
+		assertTrue("a".equals("a"));
+	}
+
+}
